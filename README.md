@@ -13,13 +13,13 @@ Package contains
 Sinusoidal ROSIO Card Connection Diagram ![ROSIOConnection](https://cloud.sinusoidal.com.tr/f/cf889bc0cd134e19a84d/?dl=1)
 
 # Requirements
-python2 or python3 depending on ROS Melodic or Noetic
-numpy==1.13.3
-hidapi==0.10.1
-udev rules
-SUBSYSTEM=="input", GROUP="input", MODE="0666"
-SUBSYSTEM=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5743", MODE="666", GROUP="plugdev"
-KERNEL=="hidraw*", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5743", MODE:="0666", GROUP="plugdev"
+  - python2 or python3 depending on ROS Melodic or Noetic
+  - numpy==1.13.3
+  - hidapi==0.10.1
+  - udev rules
+    - SUBSYSTEM=="input", GROUP="input", MODE="0666"
+    - SUBSYSTEM=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5743", MODE="666", GROUP="plugdev"
+    - KERNEL=="hidraw*", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5743", MODE:="0666", GROUP="plugdev"
 
 # Installation
 * Clone the repository into catkin workspace's src folder.
