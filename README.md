@@ -31,5 +31,5 @@ KERNEL=="hidraw*", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5743", MODE:="066
 * rosrun rviz rviz -c ultrasonic.rviz
 
 # Screenshots
-Sinusoidal ROSIO Card Rviz Scrrenshot ![RVIZScreenshot](https://cloud.sinusoidal.com.tr/f/cf889bc0cd134e19a84d/?dl=1)
+Sinusoidal ROSIO Card Rviz Scrrenshot ![RVIZScreenshot](https://cloud.sinusoidal.com.tr/f/de8793d40eee4d6caaf5/?dl=1)
 
